@@ -8,7 +8,7 @@
 		<script>
 			if (id == 'kim') {
 				var password = prompt('비밀번호를 입력해 주세요.');
-				if (password === '12345678') {
+				if (password.match(/1{3,}/)) {
 					alert('인증되었습니다.');
 				}else {
 					alert('인증에 실패했습니다.');
