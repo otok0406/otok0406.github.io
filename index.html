@@ -1,12 +1,22 @@
 <html>
 	<head>
-		<title>자고 싶다.</title>
+		<title>사이트입니다..</title>
 	</head>
 	
 	<body>
-		<h1>침대에서</h1>
+		<h1>사이트</h1>
 		<script>
-			var s = 'SLEEP';
+			if (id == 'kim') {
+				var password = prompt('비밀번호를 입력해 주세요.');
+				if (password === '12345678') {
+					alert('인증되었습니다.');
+				}else {
+					alert('인증에 실패했습니다.');
+				}
+			}else {
+				alert('인증에 실패했습니다.');
+			}
+			var s = '환영합니다';
 			
 			alert(s);
 		</script>
